@@ -2,7 +2,7 @@ package com.example.simplelogin.di.module
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.simplelogin.ui.LoginViewModel
+import com.example.simplelogin.ui.login.LoginViewModel
 import com.example.simplelogin.di.ViewModelFactory
 import com.example.simplelogin.di.ViewModelKey
 import com.example.simplelogin.ui.splashscreen.SplashScreenViewmodel

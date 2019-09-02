@@ -17,7 +17,7 @@ class RepositoryModule {
 
     @Provides
     @Singleton
-    fun providesLoginRepository (apiService: ApiService): LoginRepository = LoginRepository (apiService)
+    fun providesLoginRepository (userDao: UserDao, apiService: ApiService): LoginRepository = LoginRepository (userDao, apiService)
 
 
 }
