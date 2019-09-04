@@ -1,4 +1,4 @@
-package com.example.simplelogin.db
+package com.example.customrecycler.db
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
